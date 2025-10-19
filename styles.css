@@ -37,7 +37,7 @@ body {
   color: #202020;
   background-color: #1995fa;
 
-  transition: background-color 0.3s ease; /* smooth transition */
+  transition: background-color 0.3s ease;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -63,10 +63,10 @@ body:has(#stats-view.active) {
   display: none;
   opacity: 0;
   width: 100%;
-  min-height: 100dvh; /* dynamic viewport height */
+  min-height: 100dvh;
   position: relative;
   overflow: visible;
-  padding-top: env(safe-area-inset-top); /* Add iOS safe area support */
+  padding-top: env(safe-area-inset-top);
   -webkit-backface-visibility: hidden;
   -webkit-overflow-scrolling: touch;
   -webkit-tap-highlight-color: transparent;
@@ -225,7 +225,7 @@ button {
 
 #stats-view {
   align-items: center;
-  margin-top: 0; /* Remove margin that was causing the shift */
+  margin-top: 0;
   font-size: 1em;
   position: relative;
   height: auto;
@@ -266,7 +266,7 @@ button {
 
 .stat-label {
   font-weight: 600;
-  justify-content: center; /* center horizontally */
+  justify-content: center;
   align-items: center;
 }
 
@@ -404,11 +404,11 @@ h3 {
 #stats-view1 {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Vertically center content */
-  align-items: center; /* Horizontally center content */
-  height: auto; /* Allow the height to adjust based on content */
-  min-height: 50vh; /* Ensure it takes up at least half the viewport height */
-  margin-top: 25vh; /* Add spacing for content below */
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  min-height: 50vh;
+  margin-top: 25vh;
 }
 
 #stats-view2 {
@@ -417,9 +417,9 @@ h3 {
 }
 
 #resultaatplaatje {
-  width: 70vw; /* Set appropriate size */
+  width: 70vw;
   max-width: 300px;
-  display: flex; /* Ensure block display */
+  display: flex;
   scale: 0;
   justify-content: center;
   align-items: center;
@@ -435,9 +435,9 @@ h3 {
 
 #Agoraresultaat,
 #Regulierresultaat {
-  width: 70vw; /* Set appropriate size */
+  width: 70vw;
   border-radius: 20px;
-  display: flex; /* Ensure block display */
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -726,7 +726,6 @@ body[data-theme="quiz_intro"] {
   }
 }
 
-/* Theme-specific styles */
 body[data-theme="thema1"] {
   background-color: #ffffff;
 
@@ -933,14 +932,13 @@ iframe {
   max-width: 640px;
   height: 480px;
   pointer-events: auto;
-  -webkit-user-select: none; /* Chrome, Safari */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE/Edge */
-  user-select: none; /* Standard */
-  touch-action: pan-x pan-y; /* Enable touch gestures */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: pan-x pan-y;
 }
 
-/* Enable interaction with map controls */
 iframe:hover {
   z-index: 1;
 }
