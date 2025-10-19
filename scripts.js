@@ -7,13 +7,11 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(SplitText);
 gsap.registerPlugin(Draggable, InertiaPlugin);
 
-// Add event listeners when DOM is loaded
 document.addEventListener("DOMContentLoaded", function () {
   // document.getElementById("start-button").addEventListener("click", startQuiz);
 
   document.getElementById("back-button").addEventListener("click", goBack);
 
-  // Update event listeners to use data attributes instead of fixed options
   document.getElementById("option1").addEventListener("click", function () {
     const optionType = this.getAttribute("data-type");
     selectOption(optionType);
@@ -24,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
     selectOption(optionType);
   });
 
-  // Add event listener for quiz intro next button
   document
     .querySelector("#quiz_intro .next-intro-button")
     .addEventListener("click", () => {
@@ -48,7 +45,7 @@ tl.to(path, { attr: { d: start }, ease: "power2.in", duration: 0.5 })
 
 document.getElementById("start-button").addEventListener("click", (e) => {
   const welcomeView = document.getElementById("welcome-view");
-  welcomeView.style.opacity = "0"; // Add this line to trigger fade out
+  welcomeView.style.opacity = "0";
   tl.reversed(!tl.reversed());
 });
 
@@ -79,7 +76,7 @@ function startQuiz() {
   // Hide quiz content and show initial quiz intro
   document.getElementById("quiz-content").style.display = "none";
   document.getElementById("quiz_intro").style.display = "block";
-  document.body.setAttribute("data-theme", "quiz_intro"); // Add this line
+  document.body.setAttribute("data-theme", "quiz_intro");
 }
 
 function showQuestion() {
