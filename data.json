@@ -47,7 +47,7 @@
         },
         "Agora": {
           "kind": "Door zelf te bedenken wat ik wil onderzoeken of maken.",
-          "ouder": "Werken aan persoonlijke projecten of uitdagingen die de leerling zelf bedenkt, met begeleiding van een coach."
+          "ouder": "Werken aan persoonlijke projecten of uitdagingen die de leerling zelf bedenkt, onder begeleiding van een coach."
         }
       }
     },
@@ -77,12 +77,12 @@
       "vraag": "Wanneer vind jij leren het leukst?",
       "opties": {
         "Regulier": {
-          "kind": "Als er opdrachten en uitleg zijn uit boeken.",
+          "kind": "Als ik leer uit boeken met opdrachten.",
           "ouder": "De nadruk ligt op vakgerichte lessen met leerdoelen en vaste lesmaterialen."
         },
         "Agora": {
-          "kind": "Als ik iets leer dat ik echt interessant vind.",
-          "ouder": "Leerlingen werken aan thema’s of projecten die uit hun eigen interesses."
+          "kind": "Als ik iets leer wat ik echt interessant vind.",
+          "ouder": "Leerlingen werken aan thema’s of projecten die uit hun eigen interesses voortkomen."
         }
       }
     },
@@ -99,7 +99,7 @@
         },
         "Agora": {
           "kind": "Over wat ik wil leren en hoe ik dat aanpak.",
-          "ouder": "Leerlingen bepalen zelf hun leerdoelen en manier van werken, binnen duidelijke begeleiding en verantwoordelijkheid."
+          "ouder": "Leerlingen bepalen zelf hun leerdoelen en manier van werken, binnen duidelijke kaders en structuur."
         }
       }
     },
