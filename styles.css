@@ -300,7 +300,7 @@ button {
 
 #back-button {
   position: fixed;
-  bottom: 0;
+  bottom: 2vh;
   left: 5%;
   border-radius: 100px;
   background-color: rgba(49, 49, 49, 0.5);
